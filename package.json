@@ -1,0 +1,26 @@
+{
+    "name": "webpack-bootstrap-boilerplate",
+    "version": "0.1.0",
+    "description": "Build script boilerplate using Webpack, Babel, SASS, and Autoprefixer with support for importing individual Bootstrap 4 modules",
+    "repository": "https://github.com/taeo920/webpack-bootstrap-boilerplate/",
+    "author": "Steve Morton",
+    "license": "WTFPL",
+    "devDependencies": {
+        "auto-reload-brunch": "^2",
+        "babel-brunch": "^6",
+        "babel-preset-env": "^1.6.1",
+        "brunch": "^2",
+        "sass-brunch": "^2",
+        "uglify-js-brunch": "^2",
+        "exports-loader": "^0.6.4",
+        "postcss-brunch": "^2",
+        "autoprefixer": "^6"
+    },
+    "dependencies": {
+        "bootstrap": "^4.0.0-beta.3"
+    },
+    "scripts": {
+        "start": "brunch watch --server",
+        "build": "brunch build --production"
+    }
+}
